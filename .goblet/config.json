@@ -1,0 +1,13 @@
+{
+    "scheduler": {
+        "serviceAccount": "goblet-sa@sandbox-rasmus-nes-118f.iam.gserviceaccount.com"
+    },
+    "cloudrun_container": {
+        "env": [
+            {
+                "name": "foo",
+                "value": "bar"
+            }
+        ]
+    }
+}
